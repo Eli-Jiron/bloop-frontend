@@ -1,5 +1,13 @@
+import Nav from './components/Nav';
+import RoutesApp from './routes/RoutesApp';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Nav />
+      <RoutesApp />
+    </>
+  );
 };
 
 export default App;
